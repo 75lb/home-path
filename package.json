@@ -1,0 +1,22 @@
+{
+  "name": "home-path",
+  "author": "Lloyd Brookes <75pound@gmail.com>",
+  "version": "0.0.0",
+  "description": "Cross-platform home directory retriever",
+  "repository": "https://github.com/75lb/home-path.git",
+  "main": "./lib/home-path.js",
+  "keywords": [
+    "home",
+    "directory",
+    "folder",
+    "path"
+  ],
+  "scripts": {
+    "test": "tape test/*.js",
+    "lint": "jshint lib/*.js test/*.js; echo",
+    "docs": "jsdoc2md -t jsdoc2md/README.hbs lib/*.js > README.md; echo"
+  },
+  "devDependencies": {
+    "tape": "^2.13.2"
+  }
+}
