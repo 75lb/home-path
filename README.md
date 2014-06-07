@@ -5,7 +5,7 @@
 
 
 #home-path
-Cross-platform home directory retriever
+Cross-platform home directory retriever, tested on Windows XP, Windows 8.1, Mac OSX, Linux.
 
 ####Example
 ```js
