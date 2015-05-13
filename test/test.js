@@ -1,5 +1,5 @@
 var test = require("tape");
-var getHomePath = require("../lib/home-path");
+var getHomePath = require("../");
 
 test("returns string", function(t){
     t.equal(typeof getHomePath(), "string");
