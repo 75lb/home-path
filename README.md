@@ -11,10 +11,18 @@ Cross-platform home directory retriever, tested on Windows XP, Windows 8.1, Mac 
 ### getHomePath() ⏏
 **Kind**: Exported function  
 **Example**  
+Mac OSX & Linux
 ```js
 > var getHomePath = require("home-path");
 > getHomePath()
 '/Users/Lloyd'
+```
+
+Windows 8.1
+```js
+> var getHomePath = require("home-path");
+> getHomePath()
+'\\Users\\Lloyd'
 ```
 
 * * *
