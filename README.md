@@ -5,7 +5,7 @@
 
 <a name="module_home-path"></a>
 ## home-path
-Cross-platform home directory retriever, tested on Windows XP, Windows 8.1, Mac OSX, Linux.
+Cross-platform home directory retriever, tested on Windows XP, Windows 8.1, Mac OSX, Linux. Will use the built-in [`os.homedir`](https://nodejs.org/api/os.html#os_os_homedir) if available.
 
 <a name="exp_module_home-path--getHomePath"></a>
 ### getHomePath() ⏏
@@ -22,7 +22,7 @@ Windows 8.1
 ```js
 > var getHomePath = require("home-path");
 > getHomePath()
-'\\Users\\Lloyd'
+'C:\\Users\\Lloyd'
 ```
 
 * * *
