@@ -1,7 +1,7 @@
-var test = require("tape");
-var getHomePath = require("../");
+var test = require('tape')
+var getHomePath = require('../')
 
-test("returns string", function(t){
-    t.equal(typeof getHomePath(), "string");
-    t.end();
-});
+test('returns string', function (t) {
+  t.equal(typeof getHomePath(), 'string')
+  t.end()
+})

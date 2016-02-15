@@ -14,11 +14,10 @@
   ],
   "scripts": {
     "test": "tape test/*.js",
-    "lint": "jshint lib/*.js test/*.js; echo",
     "docs": "jsdoc2md -t jsdoc2md/README.hbs lib/*.js > README.md; echo"
   },
   "devDependencies": {
-    "jsdoc-to-markdown": "^1.1.1",
-    "tape": "^4"
+    "jsdoc-to-markdown": "^1.3.3",
+    "tape": "^4.4"
   }
 }
