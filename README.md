@@ -6,7 +6,9 @@
 
 <a name="module_home-path"></a>
 ## home-path
-Cross-platform home directory retriever, tested on Windows XP and above, Mac OSX and Linux. Will use the built-in [`os.homedir`](https://nodejs.org/api/os.html#os_os_homedir) if available.
+Cross-platform home directory retriever, tested on Windows XP and above, Mac OSX and Linux.
+
+With node versions 2.3.0 (iojs) or higher, the built-in [`os.homedir`](https://nodejs.org/api/os.html#os_os_homedir) method is used.
 
 **Example**  
 ```js
@@ -36,4 +38,4 @@ Windows 8.1
 
 * * *
 
-&copy; 2015 Lloyd Brookes \<75pound@gmail.com\>. Documented by [jsdoc-to-markdown](https://github.com/jsdoc2md/jsdoc-to-markdown).
+&copy; 2015-16 Lloyd Brookes \<75pound@gmail.com\>. Documented by [jsdoc-to-markdown](https://github.com/jsdoc2md/jsdoc-to-markdown).
