@@ -6,7 +6,7 @@
 
 <a name="module_home-path"></a>
 
-## home-path
+# home-path
 Cross-platform home directory retriever, tested on Windows XP and above, Mac OSX and Linux.
 
 With node versions 2.3.0 (iojs) or higher, the built-in [`os.homedir`](https://nodejs.org/api/os.html#os_os_homedir) method is used.
@@ -17,7 +17,7 @@ var getHomePath = require('home-path')
 ```
 <a name="exp_module_home-path--getHomePath"></a>
 
-### getHomePath() ⏏
+## getHomePath() ⏏
 **Kind**: Exported function  
 **Example**  
 Mac OSX
