@@ -3,7 +3,7 @@
   "author": "Lloyd Brookes <75pound@gmail.com>",
   "version": "1.0.6",
   "description": "Cross-platform home directory retriever",
-  "repository": "https://github.com/75lb/home-path.git",
+  "repository": "https://github.com/75lb/home-path",
   "license": "MIT",
   "keywords": [
     "home",
@@ -16,7 +16,10 @@
     "docs": "jsdoc2md --heading-depth 1 -t README.hbs index.js > README.md; echo"
   },
   "devDependencies": {
-    "jsdoc-to-markdown": "^4.0.1",
-    "tape": "^4.9"
-  }
+    "jsdoc-to-markdown": "^5.0.1",
+    "tape": "^4.11"
+  },
+  "files": [
+    "index.js"
+  ]
 }
